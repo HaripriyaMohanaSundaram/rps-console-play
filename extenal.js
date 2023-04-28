@@ -27,7 +27,7 @@ function playAround(playerSelection, computerSelection) {
 function game() {
   let playerCount = 0;
   let computerCount = 0;
-  for (i = 0; i < 2; i++) {
+  for (i = 0; i < 5; i++) {
     let playerSelection = prompt("Enter any one choice : rock, paper or scissors").toLowerCase();
     if (playerSelection == "rock" | playerSelection == "scissors" | playerSelection == "paper") {
       let computerSelection = computerPlay();
